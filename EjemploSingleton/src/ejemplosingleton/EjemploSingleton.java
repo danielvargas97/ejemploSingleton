@@ -14,7 +14,7 @@ public class EjemploSingleton {
         Singleton ejemploUno = Singleton.getInstance();
         Singleton ejemploDos = Singleton.getInstance();
         
-        ejemploUno.saludar("Hola que hacen. Un ejemplo de Singleton o que hacen :v");
+        ejemploUno.saludar("Saludo desde el Singleton");
         
         System.out.println(ejemploUno.getSaludo());
         System.out.println(ejemploDos.getSaludo());
